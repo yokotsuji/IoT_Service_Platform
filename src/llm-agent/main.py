@@ -8,11 +8,10 @@ import time
 import openpyxl
 from config import OPENAI_API_KEY_1
 from GeminiAgent import GeminiAgent
-from query import atomic_queries, complex_queries, ambiguous_queries
+from query import complex_queries, ambiguous_queries
 
 def main():
     start = time.time()
-#    run_multiple_queries_and_save_times(atomic_queries, "atomic_")
     run_multiple_queries_and_save_times(complex_queries, "complex_")
 #    run_multiple_queries_and_save_times(ambiguous_queries, "ambiguous_")
         end = time.time()
