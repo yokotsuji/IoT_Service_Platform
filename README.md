@@ -7,7 +7,7 @@ By combining these services with Large Language Models (LLMs), the platform allo
 
 ## Repository Structure
 
-├── data/                   # Ground-truth datasets for evaluation \
+├── data/                   # Ground-truth datasets for evaluation 
 
 
 ├── iot_service_platform/   # IoT platform code (Lambda functions, adapters, etc.)
