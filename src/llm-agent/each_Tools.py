@@ -3,7 +3,6 @@ import subprocess
 import json
 import sys
 from datetime import datetime, timezone, timedelta
-sys.path.append("C:/Users/cleep/Study/Study/Request")
 import requests
 class Tool:
     def __init__(self, name, description, func, parameters=None):
@@ -174,4 +173,5 @@ tools = [
     Temperature_Okayama_Tool,
     Humidity_Okayama_Tool,
     Pressure_Okayama_Tool
+
 ]
