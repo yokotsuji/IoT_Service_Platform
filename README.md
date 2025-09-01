@@ -1,6 +1,6 @@
 # IoT_Service_Platform
 
-`iot_service_platform` is available　on AWS Lambda.
+`iot_service_platform` is available on AWS Lambda.
 This directory contains the core implementation, including standardized interfaces and adapters for sensors, actuators, and complex services.
 
 ## Requirements
