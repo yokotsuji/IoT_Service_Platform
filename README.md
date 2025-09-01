@@ -1,8 +1,18 @@
 # IoT_Service_Platform
 
-You can available "iot_service_platform" directory on AWS Lambda.
+`iot_service_platform` is available　on AWS Lambda.
+This directory contains the core implementation, including standardized interfaces and adapters for sensors, actuators, and complex services.
 
-## Repository Structure
+## Requirements
+
+The Lambda function requires the following Python packages:
+
+- `requests`
+
+Add them to a `requirements.txt` file:
+
+
+## Platform Structure
 
 - `lambda_function.py`  
   Entry point for the AWS Lambda function (handler).
