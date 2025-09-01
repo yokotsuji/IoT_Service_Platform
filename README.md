@@ -1,37 +1,13 @@
 # IoT_Service_Platform
 
-`iot_service_platform` is available on AWS Lambda.
-This directory contains the core implementation, including standardized interfaces and adapters for sensors, actuators, and complex services.
 
-## Requirements
+This repository provides an implementation of an **IoT service platform** and an **LLM-based agent** for evaluating and supporting intelligent IoT service selection.  
+The project focuses on enabling interoperability between heterogeneous IoT devices and providing standardized interfaces for both atomic and complex IoT services.  
+By combining these services with Large Language Models (LLMs), the platform allows agents to interpret natural language queries and select appropriate IoT services effectively.
 
-The Lambda function requires the following Python packages:
+## Repository Structure
 
-- `requests`
-
-Add them to a `requirements.txt` file:
-
-
-## Platform Structure
-
-- `lambda_function.py`  
-  Entry point for the AWS Lambda function (handler).
-
-- `actuator/`  
-  Standardized actuator interface and concrete adapters for device control.
-
-- `sensorservice/`  
-  Standardized sensor interface and adapters for fetching sensor data.
-
-- `complexservice/`  
-  Standardized interface and adapters for composite services  
-  (e.g., temperature difference, comfort).
-
-- `api/`  
-  Request handling layer (parsing, routing, and response formatting for API Gateway).
-
-- `manager/`  
-  Schedulers and runners for periodic web-service tasks and maintenance jobs.
-
-- `utils/`  
-  Shared utilities.
+├── data/                   # Ground-truth datasets for evaluation
+├── iot_service_platform/   # IoT platform code (Lambda functions, adapters, etc.)
+├── llm-agent/              # LLM-based agent implementation and evaluation
+└── README.md               # Project overview (this file)
