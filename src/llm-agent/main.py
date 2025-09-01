@@ -1,5 +1,5 @@
 from Agent import Agent
-from Prompt import generate_prompt, taskorganize_prompt, selectiotservice_prompt, executetask_prompt, conbine_prompt, responsetouser_prompt, test_prompt
+from Prompt import test_prompt
 from Memory import save_to_database
 from Tool import searchIoTService_Tool, getEvent_Tool, notifyEvent_Tool
 import sys
