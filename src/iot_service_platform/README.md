@@ -1,18 +1,39 @@
-# LLM-Agent Directory Structure
+# iot_service_platform
 
-This repository contains the implementation of an LLM-based agent for IoT service selection and evaluation.  
-The directory is organized as follows:
-## Overview
+`iot_service_platform` is available on AWS Lambda.
+This directory contains the core implementation, including standardized interfaces and adapters for sensors, actuators, and complex services.
 
-- **Agent.py**: Defines the LLM-based agent logic.  
-- **Memory.py**: Stores and retrieves conversation history.  
-- **Prompt.py**: Provides structured prompts to guide the agent’s reasoning.  
-- **Tools.py**: Contains implementations of IoT tools when using the platform.  
-- **each_Tools.py**: Implements IoT tools for the non-platform setting.  
-- **evaluation.py**: Evaluates the accuracy of service selection with the platform.  
-- **main.py**: Entry point for running the agent.  
-- **normalize.py**: Normalizes prediction outputs for consistent evaluation.  
-- **service_select_evaluation_without_platform.py**: Evaluates service selection without the platform.  
-- **serviceselect_with_iotplatform.py**: Runs service selection with platform support.  
-- **serviceselect_without_iotplatform.py**: Runs service selection without platform support.
+## Requirements
+
+The Lambda function requires the following Python packages:
+
+- `requests`
+
+Add them to a `requirements.txt` file:
+
+
+## Platform Structure
+
+- `lambda_function.py`  
+  Entry point for the AWS Lambda function (handler).
+
+- `actuator/`  
+  Standardized actuator interface and concrete adapters for device control.
+
+- `sensorservice/`  
+  Standardized sensor interface and adapters for fetching sensor data.
+
+- `complexservice/`  
+  Standardized interface and adapters for composite services  
+  (e.g., temperature difference, comfort).
+
+- `api/`  
+  Request handling layer (parsing, routing, and response formatting for API Gateway).
+
+- `manager/`  
+  Schedulers and runners for periodic web-service tasks and maintenance jobs.
+
+- `utils/`  
+  Shared utilities.
+
 
