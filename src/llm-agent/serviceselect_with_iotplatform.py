@@ -5,7 +5,7 @@ from Tool import getEvent_Tool, notifyEvent_Tool, format_service_list, search_Io
 from colorama import Fore, Back, Style
 import pandas as pd
 from config import OPENAI_API_KEY_1, GOOGLE_API_KEY
-from query import atomic_queries, far_complex_queries, lat_complex_queries, ambiguous_queries, complex_queries
+from query import atomic_queries, ambiguous_queries, complex_queries
 import google.generativeai as genai
 import time
 from normalize import normalize_pred_file
