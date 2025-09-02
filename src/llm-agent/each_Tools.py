@@ -18,8 +18,8 @@ class Tool:
         self.func = func
         self.parameters = parameters or {}  # 引数を辞書形式で初期化
 
-api_key = "aagdfsagf5ywergsd24324234dfgdfgdf"
-base_url = "http://35.76.109.219:5000/get_data"
+api_key = "your_flask_api_key"
+base_url = "your_flask_url"
 headers = {"x-api-key": api_key}
 
 def Temperature_208():
@@ -175,3 +175,4 @@ tools = [
     Pressure_Okayama_Tool
 
 ]
+
