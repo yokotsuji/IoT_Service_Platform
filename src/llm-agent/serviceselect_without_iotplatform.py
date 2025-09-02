@@ -7,7 +7,7 @@ from each_Tools import tools
 from colorama import Fore, Back, Style
 import pandas as pd
 from config import OPENAI_API_KEY_1, GOOGLE_API_KEY
-from query import atomic_queries, far_complex_queries, lat_complex_queries, ambiguous_queries, complex_queries
+from query import atomic_queries, ambiguous_queries, complex_queries
 import google.generativeai as genai
 from datetime import datetime
 import pytz
