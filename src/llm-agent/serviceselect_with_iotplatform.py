@@ -1,7 +1,7 @@
 import json
 import sys
 from openai import OpenAI
-from Tool import getEvent_Tool, notifyEvent_Tool, format_service_list, search_IoTService
+from Tool import all_tools as tools
 from colorama import Fore, Back, Style
 import pandas as pd
 from config import OPENAI_API_KEY_1, GOOGLE_API_KEY
@@ -93,7 +93,6 @@ if __name__ == "__main__":
     args = sys.argv
     model1 = args[1]
 #    model2 = args[2]
-    tools = [getEvent_Tool, notifyEvent_Tool]
     base_path = "tool_selection"
 
 #    run_test_and_save(atomic_queries, tools, f"With{model1}-{base_path}_atomic.xlsx", model1)
