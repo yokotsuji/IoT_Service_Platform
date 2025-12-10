@@ -133,4 +133,146 @@ USE getEvent {
 【追加ルール】
 - ユーザ入力が曖昧な場合は、必要な情報を質問してください。  
 - 同じツールを繰り返し使う場合は、その理由を必ず明示してください。  
+
+【Available Service】
+	1.	Temperature
+Description: Provides the current temperature at a single place.
+Arguments:
+Place: {Type: string, AllowedValues: [208, Okayama]}
+Output:
+Value: (float, Celsius), Place (string), TimeStamp (string)
+
+⸻
+
+	2.	Humidity
+Description: Provides the current humidity at a single place.
+Arguments:
+Place: {Type: string, AllowedValues: [208, Okayama]}
+Output:
+Value: (float, %RH), Place (string), TimeStamp (string)
+
+⸻
+
+	3.	Illuminance
+Description: Provides illuminance at Room 208.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Value: (float, lx), Place (string), TimeStamp (string)
+
+⸻
+
+	4.	CO2
+Description: Provides CO₂ concentration at Room 208.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Value: (float, ppm), Place (string), TimeStamp (string)
+
+⸻
+
+	5.	Noise
+Description: Provides noise level at Room 208.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Value: (float, dB), Place (string), TimeStamp (string)
+
+⸻
+
+	6.	Pressure
+Description: Provides atmospheric pressure at a single place.
+Arguments:
+Place: {Type: string, AllowedValues: [208, Okayama]}
+Output:
+Value: (float, hPa), Place (string), TimeStamp (string)
+
+⸻
+
+	7.	PIR
+Description: Provides human-presence detection at Room 208.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Value: (bool), Place (string), TimeStamp (string)
+
+	8.	TemperatureDifference
+Description: Provides the temperature difference across places.
+Arguments:
+Place: {Type: string, AllowedValues: [any]}
+Output:
+Value: (float, Celsius), Description (string), TimeStamp (string)
+
+⸻
+
+	9.	HumidityDifference
+Description: Provides the humidity difference across places.
+Arguments:
+Place: {Type: string, AllowedValues: [any]}
+Output:
+Value: (float, %RH), Description (string), TimeStamp (string)
+
+⸻
+
+	10.	PressureDifference
+Description: Provides the pressure difference across places.
+Arguments:
+Place: {Type: string, AllowedValues: [any]}
+Output:
+Value: (float, hPa), Description (string), TimeStamp (string)
+
+⸻
+
+	11.	ComfortService
+Description: Provides comfort level computed from temperature and humidity.
+Arguments:
+Place: {Type: string, AllowedValues: [208, Okayama]}
+Output:
+Score: (float), Components: {Temperature (float), Humidity (float)}, TimeStamp (string)
+
+⸻
+
+	12.	AirQuality
+Description: Provides air-quality score based on CO₂ concentration and noise level.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Score: (float), Components: {CO2 (float), Noise (float)}, TimeStamp (string)
+
+⸻
+
+	13.	SleepComfort
+Description: Provides sleep-comfort score computed from illuminance, temperature, and humidity.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Score: (float), Components: {Illuminance (float), Temperature (float), Humidity (float)}, TimeStamp (string)
+
+⸻
+
+	14.	Concentration
+Description: Provides concentration score based on noise, illuminance, and CO₂.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Score: (float), Components: {Noise (float), Illuminance (float), CO2 (float)}, TimeStamp (string)
+
+⸻
+
+	15.	VentilationCheck
+Description: Evaluates ventilation need using PIR and CO₂.
+Arguments:
+Place: {Type: string, AllowedValues: [208]}
+Output:
+Status: (string), Components: {PIR (bool), CO2 (float)}, TimeStamp (string)
+
+⸻
+
+	16.	AirControl
+Description: Controls the air conditioner when temperature-difference conditions are met.
+Arguments:
+Place: {Type: string, AllowedValues: [any]},
+Command: {Power (string), Mode (string), Value (float)}
+Output:
+Result: (string), AppliedCommand: (dict), TimeStamp (string)
 """
