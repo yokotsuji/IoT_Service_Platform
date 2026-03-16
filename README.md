@@ -7,18 +7,13 @@ By combining these services with Large Language Models (LLMs), the platform allo
 
 ## Repository Structure
 
-├── data/                   # Ground-truth datasets for evaluation 
+Repository Structure
 
-
+├── data/                 # Ground-truth datasets for evaluation
 ├── src/
-
-  ├── iot_service_platform/   # IoT platform code (Lambda functions, adapters, etc.)
-
-  ├── llm-agent/              # LLM-based agent implementation and evaluation
-  
-  ├── serviceselect/ # evaluate service selection
-
-  ├── code_line/ evaluate code lines
-
-└── README.md               # Project overview (this file)
+│   ├── servicesselect/   # evaluate service selection
+│   └── code_line/        # evaluate code lines
+├── iot_service_platform/ # IoT platform code (Lambda functions, adapters, etc.)
+├── llm-agent/            # LLM-based agent implementation and evaluation
+└── README.md             # Project overview (this file)
 
