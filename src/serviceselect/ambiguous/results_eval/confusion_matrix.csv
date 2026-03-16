@@ -1,0 +1,29 @@
+﻿,pred:208|Air Control,pred:208|Air Quality,pred:208|Comfort,pred:208|Concentration,pred:208|Humidity,pred:208|Humidity Difference,pred:208|Noise,pred:208|Pressure,pred:208|Pressure Difference,pred:208|Sleep Comfort,pred:208|Ventilation Check,pred:Okayama|Comfort,pred:any|Humidity Difference,pred:any|Pressure Difference,pred:any|Temperature Difference,"pred:{""Place"":""208""}|Air Quality","pred:{""Place"":""Okayama""}|Comfort","pred:{""Place"":""any""}|Pressure Difference","pred:{""Place"":""any""}|Temperature Difference","pred:{""place"":""208""}|Air Quality","pred:{""place"":""208""}|Comfort","pred:{""place"":""208""}|Concentration","pred:{""place"":""208""}|Sleep Comfort","pred:{""place"":""208""}|Ventilation Check","pred:{""place"":""Okayama""}|Comfort",pred:{}|Concentration,pred:{}|Illuminance,pred:{}|Ventilation Check
+true:208|Air Control,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0
+true:208|Air Quality,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,0
+true:208|Comfort,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Concentration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0
+true:208|Humidity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Humidity Difference,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Noise,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Pressure,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Pressure Difference,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Sleep Comfort,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0
+true:208|Ventilation Check,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,3
+true:Okayama|Comfort,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,2,0,0,0
+true:any|Humidity Difference,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+true:any|Pressure Difference,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,2
+true:any|Temperature Difference,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,0,0,0,0,0,0,0,0,1
+"true:{""Place"":""208""}|Air Quality",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""Place"":""Okayama""}|Comfort",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""Place"":""any""}|Pressure Difference",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""Place"":""any""}|Temperature Difference",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""208""}|Air Quality",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""208""}|Comfort",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""208""}|Concentration",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""208""}|Sleep Comfort",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""208""}|Ventilation Check",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""Okayama""}|Comfort",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:{}|Concentration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:{}|Illuminance,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:{}|Ventilation Check,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

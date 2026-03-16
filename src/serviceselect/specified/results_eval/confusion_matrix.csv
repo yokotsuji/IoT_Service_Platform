@@ -1,0 +1,23 @@
+﻿,pred:208|Air Control,pred:208|Air Quality,pred:208|Comfort,pred:208|Concentration,pred:208|Sleep Comfort,pred:208|Temperature,pred:208|Ventilation Check,pred:Okayama|Comfort,pred:any|Humidity Difference,pred:any|Pressure Difference,pred:any|Temperature Difference,"pred:{""Place"":""any""}|Humidity Difference","pred:{""Place"":""any""}|Pressure Difference","pred:{""Place"":""any""}|Temperature Difference","pred:{""place"":""208""}|Air Quality","pred:{""place"":""208""}|Sleep Comfort","pred:{""place"":""Okayama""}|Comfort",pred:{}|Air Quality,pred:{}|Concentration,pred:{}|Request Air Control,pred:{}|Ventilation Check,pred:岡山|Comfort
+true:208|Air Control,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,0,0,0,2,0,0
+true:208|Air Quality,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0
+true:208|Comfort,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Concentration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0
+true:208|Sleep Comfort,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
+true:208|Temperature,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:208|Ventilation Check,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0
+true:Okayama|Comfort,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,2
+true:any|Humidity Difference,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0
+true:any|Pressure Difference,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0
+true:any|Temperature Difference,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0
+"true:{""Place"":""any""}|Humidity Difference",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""Place"":""any""}|Pressure Difference",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""Place"":""any""}|Temperature Difference",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""208""}|Air Quality",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""208""}|Sleep Comfort",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+"true:{""place"":""Okayama""}|Comfort",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:{}|Air Quality,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:{}|Concentration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:{}|Request Air Control,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:{}|Ventilation Check,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+true:岡山|Comfort,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

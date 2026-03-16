@@ -1,0 +1,26 @@
+﻿class,precision,recall,f1-score,support
+208|Air Control,0.0,0.0,0.0,5.0
+208|Air Quality,1.0,0.2,0.3333333333333333,5.0
+208|Comfort,1.0,1.0,1.0,5.0
+208|Concentration,0.0,0.0,0.0,5.0
+208|Sleep Comfort,1.0,0.6,0.75,5.0
+208|Temperature,0.0,0.0,0.0,0.0
+208|Ventilation Check,0.0,0.0,0.0,5.0
+Okayama|Comfort,0.0,0.0,0.0,5.0
+any|Humidity Difference,0.0,0.0,0.0,5.0
+any|Pressure Difference,0.0,0.0,0.0,5.0
+any|Temperature Difference,0.0,0.0,0.0,5.0
+"{""Place"":""any""}|Humidity Difference",0.0,0.0,0.0,0.0
+"{""Place"":""any""}|Pressure Difference",0.0,0.0,0.0,0.0
+"{""Place"":""any""}|Temperature Difference",0.0,0.0,0.0,0.0
+"{""place"":""208""}|Air Quality",0.0,0.0,0.0,0.0
+"{""place"":""208""}|Sleep Comfort",0.0,0.0,0.0,0.0
+"{""place"":""Okayama""}|Comfort",0.0,0.0,0.0,0.0
+{}|Air Quality,0.0,0.0,0.0,0.0
+{}|Concentration,0.0,0.0,0.0,0.0
+{}|Request Air Control,0.0,0.0,0.0,0.0
+{}|Ventilation Check,0.0,0.0,0.0,0.0
+岡山|Comfort,0.0,0.0,0.0,0.0
+accuracy,0.18,0.18,0.18,0.18
+macro avg,0.13636363636363635,0.0818181818181818,0.09469696969696968,50.0
+weighted avg,0.3,0.18,0.20833333333333331,50.0
