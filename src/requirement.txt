@@ -1,0 +1,7 @@
+openai
+colorama
+openpyxl
+requests
+pandas
+google-generativeai
+scikit-learn
